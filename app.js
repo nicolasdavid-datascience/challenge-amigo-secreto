@@ -3,6 +3,7 @@
 
 let amigos = [];
 
+// Implementa uma função para agregar amigos
 function adicionarAmigo() {
     let campoNome = document.getElementById('amigo'); // Tarefa 1: Capturar o valor do campo de entrada.
     let nomeAmigo = campoNome.value;
@@ -28,7 +29,7 @@ function limparCampo() {
     campoNome.value = '';
 }
 
-// Função dedicada a atualizar a lista de amigos na tela.
+// Implementa uma função para atualizar a lista de amigos.
 function atualizarExibicaoDosAmigos() {
     // Tarefa 1: Obter o elemento da lista.
     let listaDeAmigosNaTela = document.getElementById('listaAmigos');
@@ -36,41 +37,10 @@ function atualizarExibicaoDosAmigos() {
     // Tarefa 2: Limpar a lista existente para evitar duplicados.
     listaDeAmigosNaTela.innerHTML = '';
 
-    // Tarefa 3: Percorrer o array de amigos.
-    // Usaremos um loop 'for...of' que é moderno e legível.
+    // Tarefa 3: Percorrer o array de amigos, usando loop.
     for (let amigo of amigos) {
         // Tarefa 4: Adicionar cada amigo como um novo elemento <li> na lista.
         // O '+=' vai adicionando um '<li>' para cada nome do array.
         listaDeAmigosNaTela.innerHTML += `<li>${amigo}</li>`;
     }
 }
-
-
-/*function adicionarAmigoNaTela() {
-    nomeAmigo = document.getElementById('resultado');
-
-}*/
-
-/*
-Implementações adicionais:
-
-
-function inserirNome() {
-    let chute = document.querySelector('input').value;
-    if (chute == numeroSecreto){
-        exibirTextoNaTela('h1', 'Acertou!');
-        let palavraTentativas = tentativas > 1 ? 'tentativas' : 'tentativa';
-        let mensagemTentativas = `Você descobriu o número secreto com ${tentativas} ${palavraTentativas}!`;
-        exibirTextoNaTela('p', mensagemTentativas);
-        document.getElementById('reiniciar').removeAttribute('disabled');
-    } else {
-        if (chute > numeroSecreto) {
-            exibirTextoNaTela('p', 'O número secreto é menor');
-        } else {
-            exibirTextoNaTela('p', 'O número secreto é maior');
-        }
-        tentativas++;
-        limparCampo();
-    }
-}
-    */
