@@ -4,6 +4,14 @@ Este é um projeto simples e divertido para **incluir participantes e realizar u
 
 ---
 
+## 🚀 Acesso ao Projeto
+
+Você pode acessar a versão ao vivo do sistema e testá-lo diretamente no seu navegador clicando no link abaixo:
+
+**[🔗 Acessar o Sorteador de Nomes](https://nicolasdavid-datascience.github.io/challenge-amigo-secreto/)**
+
+---
+
 ## ✨ Funcionalidades
 
 -   **Inclusão de Nomes:** Adicione novos participantes facilmente à sua lista.
@@ -17,39 +25,17 @@ Este projeto foi desenvolvido como parte do programa **ONE (Oracle Next Educatio
 
 ---
 
-## 📸 Capturas de Tela
+## 🎬 Demonstração em GIF: Orientações do Projeto
 
-Aqui estão algumas capturas de tela para ilustrar como o sistema funciona:
+Este GIF demonstra o passo a passo para utilizar a funcionalidade principal do projeto: **adicionar nomes e sortear um amigo secreto**.
 
-### Tela de Inclusão de Nomes
-
-[Inclua aqui uma descrição da tela de inclusão de nomes.]
-
-<img src="screenshots/tela_inclusao.png" alt="Tela de Inclusão de Nomes" width="600">
+1.  **Adicionando Nomes**: Digite o nome desejado na barra de texto.
+2.  **Clique em "Adicionar"**: O nome será adicionado à lista. Repita este processo para inserir pelo menos três nomes.
+3.  **Sorteando o Amigo**: Após adicionar todos os nomes, clique no botão "Sortear amigo". O resultado do sorteio será exibido na tela.
 
 ---
 
-### Tela Principal (Lista de Nomes)
-
-[Inclua aqui uma descrição da tela principal com a lista de nomes.]
-
-<img src="screenshots/tela_principal.png" alt="Tela Principal (Lista de Nomes)" width="600">
-
----
-
-### Tela de Sorteio
-
-[Inclua aqui uma descrição da tela de sorteio, mostrando o resultado.]
-
-<img src="screenshots/tela_sorteio.png" alt="Tela de Sorteio" width="600">
-
----
-
-## 🚀 Como Usar
-
-1.  **Inclua os participantes:** Adicione os nomes na lista.
-2.  **Clique em Sortear:** O sistema mostrará o nome do vencedor.
-
+![Demonstração do fluxo de uso do projeto](assets/demo.gif)
 ---
 
 ## 🛠️ Tecnologias Utilizadas
