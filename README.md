@@ -1,4 +1,4 @@
-# 🎉 Sistema de Sorteio de Nomes
+# 🎉 Challenge Amigo Secreto
 
 Este é um projeto simples e divertido para **incluir participantes e realizar um sorteio aleatório** entre eles. Perfeito para amigos secretos, rifas ou qualquer ocasião que precise de um sorteio justo!
 
@@ -8,7 +8,7 @@ Este é um projeto simples e divertido para **incluir participantes e realizar u
 
 Você pode acessar a versão ao vivo do sistema e testá-lo diretamente no seu navegador clicando no link abaixo:
 
-**[🔗 Acessar o Sorteador de Nomes](https://nicolasdavid-datascience.github.io/challenge-amigo-secreto/)**
+**[🔗 Acessar o Challenge Amigo Secreto](https://nicolasdavid-datascience.github.io/challenge-amigo-secreto/)**
 
 ---
 
